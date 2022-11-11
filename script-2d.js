@@ -5,12 +5,12 @@ const lookup = {
     "the-basic": {
         "vectary-id": "54739396-1053-4f71-8096-44f4ce1a08bf",
         "price-per-mile": 3.50,
-        "builder": "mini-o",
+        "builder": "auxbox",
     },
     "the-upgrade": {
         "vectary-id": "bf024eb5-edca-47b0-bbd9-14bac4512ee1",
         "price-per-mile": 4.00,
-        "builder": "mini-o",
+        "builder": "auxbox",
     },
     "holo": {
         "vectary-id": "202ef3f3-fc9c-4ba1-9913-fa7daedfc6f9",
