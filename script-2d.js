@@ -2,12 +2,12 @@ var show_zero_price = "";
 var slidesT = ["size", 'exterior', 'interior', 'layout', "installation", "summary"], $slide = $(".configuration-slide"), zz = "22EP8BJUJKCW2YGUN8RS", hc = "w-condition-invisible", sB = ['upgrades', 'interior', 'services', 'exterior' , 'layout'], sC = [ "price" , "model" , "load"], ccI = ".collection-item", ccW = ".collection-selection-wrapper", ccF = "#model-item-selection", ccFM = "#model-item-selection-multiple", ccM = ".title-section", ccS = ".summary-studio"
 var formatter = new Intl.NumberFormat('en-US', { style: 'currency', currency: 'USD', minimumFractionDigits: 0, maximumFractionDigits : 2});
 const lookup = {
-    "the-twelve": {
+    "the-basic": {
         "vectary-id": "54739396-1053-4f71-8096-44f4ce1a08bf",
         "price-per-mile": 3.50,
         "builder": "mini-o",
     },
-    "the-sixteen": {
+    "the-upgrade": {
         "vectary-id": "bf024eb5-edca-47b0-bbd9-14bac4512ee1",
         "price-per-mile": 4.00,
         "builder": "mini-o",
@@ -44,11 +44,11 @@ const lookup = {
         "vectary-id": "04ebc49a-4b70-41e0-9671-be99716d46c2",
         "builder": "auxbox",
     },
-    "the-146" : {
+    "big" : {
         "vectary-id": "2420b723-9a36-4672-a184-a7b2133785b6",
         "builder" : "auxbox",
     },
-    "the-240" : {
+    "bigger" : {
         "vectary-id": "716b27f5-8097-472f-a827-558ef50e0416",
         "builder" : "auxbox",
     },
